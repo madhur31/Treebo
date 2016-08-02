@@ -1,0 +1,52 @@
+<resources>
+
+    <style name="ThemeOverlay.MyNoTitleActivity" parent="Theme.AppCompat.NoActionBar">
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="GroupContentTextAddNotes">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minLines">0</item>
+        <!--<item name="android:layout_weight">65</item> [PDBMOBILE-36]-->
+        <item name="android:gravity">fill_horizontal</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="NotesTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_weight">35</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="NotesDescription">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minLines">0</item>
+        <item name="android:maxLines">2</item>
+        <!--<item name="android:layout_weight">65</item> [PDBMOBILE-36]-->
+        <item name="android:gravity">fill_horizontal</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Treebo</string>
+
+    <string name="activity_notes">Notes</string>
+
+    <string name="hint_note_title">Note Title</string>
+    <string name="hint_note_body">Note Content</string>
+    <string name="add_notes">Add Note</string>
+    <string name="no_items">No notes to display. Add note using the button below.</string>
+</resources>
