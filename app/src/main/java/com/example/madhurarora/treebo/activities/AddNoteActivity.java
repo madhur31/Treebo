@@ -138,7 +138,6 @@ public class AddNoteActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         endActivity();
-        super.onBackPressed();
     }
 
     @Override
